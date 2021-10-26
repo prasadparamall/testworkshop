@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="testdata.ListenerClass"></listener>
+</listeners>
+  
+  <test name="login">
+    <classes>
+      <class name="testcases.LoginPage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="clearshoppingcart">
+    <classes>
+      <class name="testcases.ClearShoppingCart"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="logout">
+    <classes>
+      <class name="testcases.Logout"/>
+    </classes>
+  </test> <!-- Test -->
+   
+
+
+
+</suite> <!-- Suite -->
